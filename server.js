@@ -53,3 +53,4 @@ connection().then(() => {
   console.error("DB connection failed", err);
 });
 
+console.log("MONGO_URI VALUE:", process.env.MONGO_URI);
